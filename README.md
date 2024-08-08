@@ -13,9 +13,12 @@ Here are some screenshots and mockups of the app prototype:
 
 * App Login View:
   ![App Login View](images/INICIO DE SESIÓN MENÚ.png)
+
 * App Register View:
   ![App Register View](images/REGISTRO.png)
+
 * App Home View :
   ![App Home View](images/HOME.png)
+
 * App Availability View:
   ![App Availability View](images/REGISTRO.png)
