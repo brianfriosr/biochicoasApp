@@ -21,4 +21,4 @@ Here are some screenshots and mockups of the app prototype:
   ![App Home View](images/HOME.png)
 
 * App Availability View:
-  ![App Availability View](images/REGISTRO.png)
+  ![App Availability View](images/DISPONIBILIDAD_FECHA.png)
