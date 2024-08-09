@@ -12,7 +12,7 @@ NOTE: The primary language of the app is Spanish.
 Here are some screenshots and mockups of the app prototype:
 
 * App Login View:
-  ![App Login View](images/INICIO DE SESIÓN MENÚ.png)
+  ![App Login View](images/LOGIN_MENU.png)
 
 * App Register View:
   ![App Register View](images/REGISTRO.png)
