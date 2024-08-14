@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="main_text">
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">@color/green_text</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="edit_text_c">
+        <item name="android:layout_marginTop">50dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="link_text_view">
+        <item name="android:layout_marginTop">40dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textColor">@color/blue</item>
+    </style>
+
+    <style name="buttons">
+        <item name="android:layout_marginTop">50dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:backgroundTint">@color/yellow_buttons</item>
+        <item name="strokeColor">@color/grey</item>
+        <item name="strokeWidth">2dp</item>
+        <item name="cornerRadius">5dp</item>
+        <item name="elevation">15dp</item>
+
+        <item name="android:textColor">@color/black</item>
+
+
+    </style>
+</resources>

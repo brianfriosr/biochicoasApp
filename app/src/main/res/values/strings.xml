@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">biochicoasApp</string>
+    <string name="iniciar_sesion_upper">INICIAR SESIÓN</string>
+    <string name="iniciar_sesion_lower">Iniciar Sesión</string>
+    <string name="registro">REGISTRO</string>
+    <string name="chat">CHAT</string>
+    <string name="restablecer_contra">RESTABLECIMIENTO DE CONTRASEÑA</string>
+    <string name="bienvenido">BIENVENIDO</string>
+    <string name="disponibilidad">DISPONIBILIDAD</string>
+    <string name="confirmacion">CONFIRMACIÓN</string>
+    <string name="paquetes">PAQUETES</string>
+    <string name="documentacion">DOCUMENTACIÓN</string>
+    <string name="correo_electronico">Correo Electrónico</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="olvidar_contrasena"><u>He olvidado mi contraseña</u></string>
+    <string name="no_tienes_cuenta">¿No tienes una cuenta?</string>
+    <string name="registrate_aqui"><u>Registrate Aquí</u></string>
+    <string name="restablecer_contrasena">Restablecer Contraseña</string>
+
+
 </resources>
