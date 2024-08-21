@@ -10,93 +10,103 @@
 
     <ImageView
         android:id="@+id/imgViewBiochicoas"
-        android:layout_width="150dp"
+        android:layout_width="0dp"
         android:layout_height="150dp"
-        android:layout_marginTop="20dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="@id/guidelineEnd"
+        app:layout_constraintStart_toStartOf="@id/guidelineStart"
+        app:layout_constraintTop_toBottomOf="@id/guidelineTop"
         app:srcCompat="@drawable/logo_biochicoas_fondo_transp" />
 
     <TextView
         android:id="@+id/txtViewIniciarSesion"
         style="@style/main_text"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="@string/iniciar_sesion_upper"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="@id/guidelineEnd"
+        app:layout_constraintStart_toStartOf="@id/guidelineStart"
         app:layout_constraintTop_toBottomOf="@+id/imgViewBiochicoas" />
 
     <EditText
         android:id="@+id/editTxtCorreo"
         style="@style/edit_text_c"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:hint="@string/correo_electronico"
         android:inputType="textEmailAddress"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="@id/guidelineEnd"
+        app:layout_constraintStart_toStartOf="@id/guidelineStart"
         app:layout_constraintTop_toBottomOf="@+id/txtViewIniciarSesion" />
 
     <LinearLayout
         android:id="@+id/layoutPassword"
         style="@style/edit_text_c"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/guidelineEnd"
+        app:layout_constraintStart_toStartOf="@id/guidelineStart"
         app:layout_constraintTop_toBottomOf="@+id/editTxtCorreo">
 
         <EditText
             android:id="@+id/editTxtPassword"
             style="@style/edit_text_c"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="0dp"
             android:layout_marginBottom="0dp"
             android:hint="@string/contrasena"
+            android:layout_weight="1"
+            android:gravity="center"
             android:inputType="textPassword" />
 
         <ImageButton
             style="@style/edit_text_c"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="0dp"
             android:layout_marginBottom="0dp"
+            android:layout_weight="5"
+            android:backgroundTint="@color/green_background"
             android:src="@drawable/visibility_password" />
     </LinearLayout>
 
     <TextView
         android:id="@+id/txtViewForgotPassword"
         style="@style/link_text_view"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:gravity="center"
         android:text="@string/olvidar_contrasena"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/guidelineEnd"
+        app:layout_constraintStart_toStartOf="@id/guidelineStart"
         app:layout_constraintTop_toBottomOf="@+id/layoutPassword" />
 
     <Button
         android:id="@+id/btnIniciarSesion"
-        android:layout_width="wrap_content"
+        style="@style/buttons"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="@string/iniciar_sesion_upper"
-        app:layout_constraintTop_toBottomOf="@+id/txtViewForgotPassword"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        style="@style/buttons"/>
+        app:layout_constraintEnd_toEndOf="@id/guidelineEnd"
+        app:layout_constraintStart_toStartOf="@id/guidelineStart"
+        app:layout_constraintTop_toBottomOf="@+id/txtViewForgotPassword" />
 
     <LinearLayout
         android:id="@+id/layoutRegisterLink"
         style="@style/edit_text_c"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnIniciarSesion">
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="@id/guidelineEnd"
+        app:layout_constraintStart_toStartOf="@id/guidelineStart"
+        app:layout_constraintTop_toBottomOf="@+id/btnIniciarSesion"
+        app:layout_constraintBottom_toBottomOf="@id/guidelineBottom"
+        android:gravity="center">
 
         <TextView
             android:id="@+id/TxtViewNoAccount"
@@ -104,20 +114,48 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="0dp"
             android:layout_marginBottom="0dp"
-            android:text="@string/no_tienes_cuenta"/>
+            android:text="@string/no_tienes_cuenta" />
 
         <TextView
             android:id="@+id/TxtViewRegistrate"
+            style="@style/link_text_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
             android:layout_marginTop="0dp"
             android:layout_marginBottom="0dp"
-            android:text="@string/registrate_aqui"
-            android:layout_marginHorizontal="10dp"
-            style="@style/link_text_view"/>
+            android:text="@string/registrate_aqui" />
 
 
     </LinearLayout>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.1" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineEnd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.9" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineTop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.05" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineBottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.95" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
