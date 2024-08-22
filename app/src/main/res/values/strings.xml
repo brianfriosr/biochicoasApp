@@ -16,6 +16,11 @@
     <string name="no_tienes_cuenta">¿No tienes una cuenta?</string>
     <string name="registrate_aqui"><u>Registrate Aquí</u></string>
     <string name="restablecer_contrasena">Restablecer Contraseña</string>
+    <string name="confirmar_contrasena">Confirmar Contraseña</string>
+    <string name="nombre_completo">Nombre Completo</string>
+    <string name="registrarse">REGISTRARSE</string>
+    <string name="registrarse_redes_sociales">Registrarse con redes sociales</string>
+    <string name="ya_tengo_cuenta">Ya tengo una cuenta</string>
 
 
 </resources>
