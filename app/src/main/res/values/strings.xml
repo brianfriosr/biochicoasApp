@@ -21,6 +21,12 @@
     <string name="registrarse">REGISTRARSE</string>
     <string name="registrarse_redes_sociales">Registrarse con redes sociales</string>
     <string name="ya_tengo_cuenta">Ya tengo una cuenta</string>
+    <string name="visita_web">Visita nuestro portal web</string>
+    <string name="home">Home</string>
+    <string name="perfil">Perfil</string>
+    <string name="logout">Cerrar Sesión</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 
 </resources>
