@@ -19,12 +19,14 @@
     <string name="confirmar_contrasena">Confirmar Contraseña</string>
     <string name="nombre_completo">Nombre Completo</string>
     <string name="registrarse">REGISTRARSE</string>
+    <string name="enviar_documentacion">ENVIAR DOCUMENTACION</string>
     <string name="registrarse_redes_sociales">Registrarse con redes sociales</string>
     <string name="ya_tengo_cuenta">Ya tengo una cuenta</string>
     <string name="visita_web">Visita nuestro portal web</string>
     <string name="home">Home</string>
     <string name="perfil">Perfil</string>
     <string name="logout">Cerrar Sesión</string>
+    <string name="escribe_correo">Escribe tu correo electrónico para recibir la documentación</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
