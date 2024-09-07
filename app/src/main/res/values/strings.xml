@@ -29,8 +29,39 @@
     <string name="escribe_correo">Escribe tu correo electrónico para recibir la documentación</string>
     <string name="selecciona_fecha">Selecciona la fecha</string>
     <string name="selecciona_hora">Selecciona la hora</string>
+    <string name="selecciona_paquete">Selecciona el paquete de tu preferencia</string>
     <string name="reservar">RESERVAR</string>
     <string name="siguiente">SIGUIENTE</string>
+    <string name="cienaga">Ciénaga</string>
+    <string name="centro_reserva">Centro de Reserva Hídrica</string>
+    <string name="motor_canoa">Motor Canoa</string>
+    <string name="canoa_grande">Canoa Turística Grande</string>
+    <string name="canoa_pequena">Canoa Turística Pequeña</string>
+    <string name="numero_personas">Número de Personas</string>
+    <string name="solo_recorrido">Sólo Recorrido</string>
+    <string name="combo">Recorrido + Hotel + Alimentación</string>
+    <string name="verifica_recorrido">Verifica tu recorrido e itinerario</string>
+    <string name="reserva">Reserva #</string>
+    <string name="fecha">Fecha:</string>
+    <string name="horario">Horario:</string>
+    <string name="transporte">Transporte:</string>
+    <string name="lugar">Lugar:</string>
+    <string name="paquete">Paquete:</string>
+    <string name="ejemplo_reserva">502</string>
+    <string name="ejemplo_fecha">06/08/2024</string>
+    <string name="ejemplo_horario">16:00-17:00</string>
+    <string name="ejemplo_transporte">Motor Canoa</string>
+    <string name="ejemplo_paquete">Sólo Recorrido</string>
+    <string name="ejemplo_personas">2</string>
+    <string name="ejemplo_lugar">Ciénaga</string>
+    <string name="reservar_pagar">RESERVAR Y PAGAR</string>
+    <string name="pagar">PAGAR</string>
+    <string name="metodos_pago">Métodos de Pago</string>
+    <string name="tarjeta_credito">Tajeta de Crédito</string>
+    <string name="tarjeta_debito">Tarjeta de Débito</string>
+    <string name="pse">PSE</string>
+
+
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 

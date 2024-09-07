@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/green_background"
+    tools:context=".PaquetesPag2Fragment">
+
+    <ImageView
+        android:id="@+id/imgViewBiochicoas"
+        android:layout_width="0dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="@+id/guidelineEnd"
+        app:layout_constraintStart_toStartOf="@id/guidelineStart"
+        app:layout_constraintTop_toBottomOf="@id/guidelineTop"
+        app:srcCompat="@drawable/logo_biochicoas_fondo_transp" />
+
+    <TextView
+        android:id="@+id/txtViewDisponibilidad"
+        style="@style/main_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/paquetes"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="@id/guidelineEnd"
+        app:layout_constraintStart_toStartOf="@id/guidelineStart"
+        app:layout_constraintTop_toBottomOf="@+id/imgViewBiochicoas" />
+
+
+    <TextView
+        android:id="@+id/TxtViewSeleccionaPaquete"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/selecciona_paquete"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@id/guidelineEnd"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@id/guidelineStart"
+        app:layout_constraintTop_toBottomOf="@id/txtViewDisponibilidad" />
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvPersonas"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        app:cardElevation="20dp"
+        app:cardCornerRadius="8dp"
+        app:cardBackgroundColor="@color/green_background"
+        app:layout_constraintTop_toBottomOf="@id/TxtViewSeleccionaPaquete"
+        app:layout_constraintStart_toStartOf="@id/guidelineStart"
+        app:layout_constraintEnd_toEndOf="@id/guidelineEnd"
+        app:layout_constraintBottom_toTopOf="@id/cvRecorrido">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:paddingHorizontal="10dp">
+
+            <TextView
+                android:id="@+id/tvNumeroPersonas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:text="@string/numero_personas" />
+
+            <EditText
+                android:id="@+id/etNumeroPersonas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:inputType="numberDecimal" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvRecorrido"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        app:cardElevation="20dp"
+        app:cardCornerRadius="8dp"
+        app:cardBackgroundColor="@color/green_background"
+        app:layout_constraintTop_toBottomOf="@id/cvPersonas"
+        app:layout_constraintStart_toStartOf="@id/guidelineStart"
+        app:layout_constraintEnd_toEndOf="@id/guidelineEnd"
+        app:layout_constraintBottom_toTopOf="@id/btnReservar">
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <RadioButton
+                android:id="@+id/rbSoloRecorrido"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/solo_recorrido" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+            <RadioButton
+                android:id="@+id/rbCombo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/combo" />
+
+        </RadioGroup>
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/btnReservar"
+        style="@style/buttons"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/siguiente"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="@id/guidelineEnd"
+        app:layout_constraintStart_toStartOf="@id/guidelineStart"
+        app:layout_constraintTop_toBottomOf="@id/cvRecorrido"
+        app:layout_constraintBottom_toBottomOf="@id/guidelineBottom"/>
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.1" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineEnd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.9" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineTop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.05" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineBottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.95" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
