@@ -60,6 +60,10 @@
     <string name="tarjeta_credito">Tajeta de Crédito</string>
     <string name="tarjeta_debito">Tarjeta de Débito</string>
     <string name="pse">PSE</string>
+    <string name="chatea_con_nosotros">Chatea con nosotros para mayor información</string>
+    <string name="mensaje_ejemplo">Bienvenido a Biochicoas ¿En qué podemos ayudarte el día de hoy?</string>
+    <string name="mensaje_respuesta_ejemplo">¡Hola!</string>
+    <string name="enviar">ENVIAR</string>
 
 
     <!-- TODO: Remove or change this placeholder text -->
